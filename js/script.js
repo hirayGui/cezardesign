@@ -10,7 +10,7 @@ $( document ).ready(function(){
         duration: 200,
         fullWidth:true
     }, setTimeout(autoplay, 3000));
-
+    $('.collapsible').collapsible();
 });
 
 
