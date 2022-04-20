@@ -19,273 +19,275 @@
 
 </head>
 <body>
+    <header>
+        <!--Criando barra de navegação-->
+        <div class="navbar-fixed" id="page-top">
+            <nav class="nav-wrapper">
+                <div class="container">
+                    <a href="#" class="brand-logo">Cézar Design</a>
+                    <a href="#" class="sidenav-trigger" data-target="slide-out">
+                        <i class="material-icons">menu</i>
+                    </a>
 
-    <!--Criando barra de navegação-->
-    <div class="navbar-fixed" id="page-top">
-        <nav class="nav-wrapper">
-            <div class="container">
-                <a href="#" class="brand-logo">Cézar Design</a>
-                <a href="#" class="sidenav-trigger" data-target="slide-out">
-                    <i class="material-icons">menu</i>
-                </a>
+                    <!--Itens do dropdown-->
+                    <ul id="dropdown1" class="dropdown-content">
+                        <li><a href="./arte/arte.html#puffs" class="orange-text">Puffs</a></li>
+                        <li class="divider"></li>
+                        <li><a href="./arte/arte.html#mesas" class="orange-text">Mesas de Centro</a></li>
+                        <li class="divider"></li>
+                        <li><a href="./arte/arte.html#banquetas" class="orange-text">Banquetas</a></li>
+                    </ul>
 
-                <!--Itens do dropdown-->
-                <ul id="dropdown1" class="dropdown-content">
-                    <li><a href="./arte/arte.html#puffs" class="orange-text">Puffs</a></li>
-                    <li class="divider"></li>
-                    <li><a href="./arte/arte.html#mesas" class="orange-text">Mesas de Centro</a></li>
-                    <li class="divider"></li>
-                    <li><a href="./arte/arte.html#banquetas" class="orange-text">Banquetas</a></li>
-                </ul>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#ideia">A Ideia</a></li>
+                        <li><a href="#ocriador">O Criador</a></li>
+                        <li><a class="dropdown-trigger" href="#artepneus" data-target="dropdown1">Arte em Pneus <i class="material-icons right">arrow_drop_down</i></a></li>
+                        <li><a href="#eventos">Eventos e Mídia</a></li>
+                        <li><a href="#novidades">Novidades</a></li>
+                        <li><a href="./contato/contato.html">Contato</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!--Barra de navegação para dispositivos móveis-->
+        <ul class="sidenav" id="slide-out">
+            <li><a href="#ideia" class="sidenav-close">A Ideia</a></li>
+            <li class="divider"></li>
+            <li><a href="#ocriador" class="sidenav-close">O Criador</a></li>
+            <li class="divider"></li>
+            <li><a href="#artepneus" class="sidenav-close">Arte em Pneus</a></li>
+            <li class="divider"></li>
+            <li><a href="#eventos" class="sidenav-close">Eventos e Mídia</a></li>
+            <li class="divider"></li>
+            <li><a href="./novidades/novidades.html" class="sidenav-close">Novidades</a></li>
+            <li class="divider"></li>
+            <li><a href="./contato/contato.html" class="sidenav-close">Contato</a></li>
+        </ul>
 
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#ideia">A Ideia</a></li>
-                    <li><a href="#ocriador">O Criador</a></li>
-                    <li><a class="dropdown-trigger" href="#artepneus" data-target="dropdown1">Arte em Pneus <i class="material-icons right">arrow_drop_down</i></a></li>
-                    <li><a href="#eventos">Eventos e Mídia</a></li>
-                    <li><a href="#novidades">Novidades</a></li>
-                    <li><a href="./contato/contato.html">Contato</a></li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-    <!--Barra de navegação para dispositivos móveis-->
-    <ul class="sidenav" id="slide-out">
-        <li><a href="#ideia" class="sidenav-close">A Ideia</a></li>
-        <li class="divider"></li>
-        <li><a href="#ocriador" class="sidenav-close">O Criador</a></li>
-        <li class="divider"></li>
-        <li><a href="#artepneus" class="sidenav-close">Arte em Pneus</a></li>
-        <li class="divider"></li>
-        <li><a href="#eventos" class="sidenav-close">Eventos e Mídia</a></li>
-        <li class="divider"></li>
-        <li><a href="./novidades/novidades.html" class="sidenav-close">Novidades</a></li>
-        <li class="divider"></li>
-        <li><a href="./contato/contato.html" class="sidenav-close">Contato</a></li>
-    </ul>
+        <!--Banner de fundo-->
+        <div id="index-banner" class="parallax-container">
+            <div class="section no-pad-bot">
+                <div class="container">
+                    <br><br>
+                    <h1 class="header center white-text" id="inicio">Cézar Design</h1>
 
-    <!--Banner de fundo-->
-    <div id="index-banner" class="parallax-container">
-        <div class="section no-pad-bot">
-            <div class="container">
-                <br><br>
-                <h1 class="header center white-text" id="inicio">Cézar Design</h1>
-
-                <div class="row center">
-                    <h5 class="header col s12 white-text">Arte renovada, sustentável e com propósito.</h5>
+                    <div class="row center">
+                        <h5 class="header col s12 white-text">Arte renovada, sustentável e com propósito.</h5>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="parallax"><img src="./img/atelie.jpg" alt="Imagem do Atêlie"></div>
-    </div><br>
-    
+            <div class="parallax"><img src="./img/atelie.jpg" alt="Imagem do Atêlie"></div>
+        </div><br>
+    </header>
 
-    <!--Separação do conteúdo em colunas-->
-    <div class="container section">
-        <div class="row" id="ideia">
-            <h5 class="title">A ideia</h5>
-            <div class="col s12 m6 l6">
-                <img src="./img/entrevista.jpg" alt="Cézar contando sua história" class="responsive-img">
-            </div>
-            <div class="col s12 m6 l6">
-                <p>
-                    A ideia de criar móveis ecológicos surgiu em 2017, época em que Cézar prestava serviços para o setor de limpeza pública na cidade de Guarulhos/SP. 
-                    Foi durante essas atividades que, percebendo a necessidade de levar um destino correto para a imensa quantidade de pneus descartados nos rios e terrenos
-                    cidade, começou a criar peças decorativas para os jardins do local onde trabalhava e ainda, do bairro onde morava. 
-                    Não demorou para que o empreendedor vislumbrasse nesta ação, uma oportunidade de fazer negócios e ainda ajudar a retirar pneus 
-                    usados da natureza, transformando-os em lindas peças de decoração em forma de Puffs, Banquetas e Mesas. 
-                </p>
+    <main>
+        <!--Separação do conteúdo em colunas-->
+        <div class="container section">
+            <div class="row" id="ideia">
+                <h5 class="title">A ideia</h5>
+                <div class="col s12 m6 l6">
+                    <img src="./img/entrevista.jpg" alt="Cézar contando sua história" class="responsive-img">
+                </div>
+                <div class="col s12 m6 l6">
+                    <p>
+                        A ideia de criar móveis ecológicos surgiu em 2017, época em que Cézar prestava serviços para o setor de limpeza pública na cidade de Guarulhos/SP. 
+                        Foi durante essas atividades que, percebendo a necessidade de levar um destino correto para a imensa quantidade de pneus descartados nos rios e terrenos
+                        cidade, começou a criar peças decorativas para os jardins do local onde trabalhava e ainda, do bairro onde morava. 
+                        Não demorou para que o empreendedor vislumbrasse nesta ação, uma oportunidade de fazer negócios e ainda ajudar a retirar pneus 
+                        usados da natureza, transformando-os em lindas peças de decoração em forma de Puffs, Banquetas e Mesas. 
+                    </p>
+                </div>
+            </div><br>
+
+            
+            <div class="row" >
+                <h5 class="title">Uma ideia linda, útil e com porpósito sustentável</h5>
+                <div class="col s12 m6 l6">
+                    <p> 
+                        A partir desta ideia inicial, com uma máquina de costura caseira e ferramentas básicas, Cézar iniciou a confecção de seus primeiros 
+                        Puffs no terraço de sua residência, acrescentando aos pneus descartados, madeira ecológica certificada pelo IBAMA com tratamento anti-cupim, 
+                        finalizando as peças com tecidos de alta qualidade como: linho rústico, suede, courvin, chenilles, jaquard, tecidos aquablock, 
+                        alpem de uma linha de tecidos especiais 100% reciclados, feitos em algodão retirados de roupas descartadas.
+                    </p>
+                </div><br>
+                <div class="col s12 m6 l6">
+                    <p>
+                        Mesmo que ainda sem saber, Cézar modelava seu negócio inovando com o conceito <i>UPCYCLING</i>, 
+                        ou de reutilização criativa, onde a reciclagem de um produto mantém suas características 
+                        originais criando produtos novos, mas com utilizações diferentes das quais foram projetadas.
+                    </p>
+                </div>
             </div>
         </div><br>
 
-        
-        <div class="row" >
-            <h5 class="title">Uma ideia linda, útil e com porpósito sustentável</h5>
-            <div class="col s12 m6 l6">
-                <p> 
-                    A partir desta ideia inicial, com uma máquina de costura caseira e ferramentas básicas, Cézar iniciou a confecção de seus primeiros 
-                    Puffs no terraço de sua residência, acrescentando aos pneus descartados, madeira ecológica certificada pelo IBAMA com tratamento anti-cupim, 
-                    finalizando as peças com tecidos de alta qualidade como: linho rústico, suede, courvin, chenilles, jaquard, tecidos aquablock, 
-                    alpem de uma linha de tecidos especiais 100% reciclados, feitos em algodão retirados de roupas descartadas.
-                </p>
-            </div><br>
-            <div class="col s12 m6 l6">
+        <!--Seção dos eventos-->
+        <div class="row" id="eventos">
+            <div class="col offset-s1 s10 offset-s1">
+                <h5 class="title">Eventos</h5>
                 <p>
-                    Mesmo que ainda sem saber, Cézar modelava seu negócio inovando com o conceito <i>UPCYCLING</i>, 
-                    ou de reutilização criativa, onde a reciclagem de um produto mantém suas características 
-                    originais criando produtos novos, mas com utilizações diferentes das quais foram projetadas.
+                    Em pouco tempo as peças conquistaram o público e ampidia, o que levou Cézar a fazer seu registro de artesão na SUTACO - Artesanato Paulista, transformando 
+                    o que até então era um hobby, numa atividade rentável e com propósito sustentável, apoiado por amigs, celebridades e pelo público em geral que já passa a 
+                    encontrar as peças em feiras, eventos e em programas de TV por todo o Brasil.
                 </p>
             </div>
-        </div>
-    </div><br>
 
-    <!--Seção dos eventos-->
-    <div class="row" id="eventos">
-        <div class="col offset-s1 s10 offset-s1">
-            <h5 class="title">Eventos</h5>
-            <p>
-                Em pouco tempo as peças conquistaram o público e ampidia, o que levou Cézar a fazer seu registro de artesão na SUTACO - Artesanato Paulista, transformando 
-                o que até então era um hobby, numa atividade rentável e com propósito sustentável, apoiado por amigs, celebridades e pelo público em geral que já passa a 
-                encontrar as peças em feiras, eventos e em programas de TV por todo o Brasil.
-            </p>
-        </div>
+            <div class="hide-on-large-only">
+                <div class="col s12">
+                    <h6>Brooklin Fast 2019</h6>
+                    <img src="./img/feira1.jpg" alt="Brooklin Fast 2019" class="responsive-img">
+                </div>
+                <div class="col s12">
+                    <h6>Pq. Água Branca Barra Funda 2017</h6>
+                    <img src="./img/feira2.jpg" alt="Pq. Água Branca Barra Funda 2017" class="responsive-img">
+                </div>
+                <div class="col s12">
+                    <h6>Av. Paulista 2018</h6>
+                    <img src="./img/feira3.jpg" alt="Av. Paulista 2018" class="responsive-img">
+                </div>
+                <div class="col s12">
+                    <h6>Exposição Adamastor</h6>
+                    <img src="./img/prefeito.jpg" alt="Exposição Adamastor" class="responsive-img">
+                </div>
+            </div>
 
-        <div class="hide-on-large-only">
-            <div class="col s12">
-                <h6>Brooklin Fast 2019</h6>
-                <img src="./img/feira1.jpg" alt="Brooklin Fast 2019" class="responsive-img">
+            <div class="carousel carousel-slider center hide-on-med-and-down" data-indicators="true">
+                <div class="carousel-item center" href="#one!">
+                    <h6>Brooklin Fast 2019</h6>
+                    <img src="./img/feira1_carousel.jpg" alt="Brooklin Fast 2019" class="responsive-img">
+                    
+                </div>
+                <div class="carousel-item center" href="#two!">
+                    <h6>Pq. Água Branca Barra Funda 2017</h6>
+                    <img src="./img/feira2_carousel.jpg" alt="Pq. Água Branca Barra Funda 2017" class="responsive-img">
+                </div>
+                <div class="carousel-item center" href="#three!">
+                    <h6>Av. Paulista 2018</h6>
+                    <img src="./img/feira3_carousel.jpg" alt="Av. Paulista 2018" class="responsive-img">
+                </div>
+                <div class="carousel-item center" href="#four!">
+                    <h6>Exposição Adamastor</h6>
+                    <img src="./img/prefeito_carousel.jpg" alt="Exposição Adamastor" class="responsive-img">
+                </div>
             </div>
-            <div class="col s12">
-                <h6>Pq. Água Branca Barra Funda 2017</h6>
-                <img src="./img/feira2.jpg" alt="Pq. Água Branca Barra Funda 2017" class="responsive-img">
-            </div>
-            <div class="col s12">
-                <h6>Av. Paulista 2018</h6>
-                <img src="./img/feira3.jpg" alt="Av. Paulista 2018" class="responsive-img">
-            </div>
-            <div class="col s12">
-                <h6>Exposição Adamastor</h6>
-                <img src="./img/prefeito.jpg" alt="Exposição Adamastor" class="responsive-img">
-            </div>
-        </div>
+            
+        </div><br>
 
-        <div class="carousel carousel-slider center hide-on-med-and-down" data-indicators="true">
-            <div class="carousel-item center" href="#one!">
-                <h6>Brooklin Fast 2019</h6>
-                <img src="./img/feira1_carousel.jpg" alt="Brooklin Fast 2019" class="responsive-img">
-                
-            </div>
-            <div class="carousel-item center" href="#two!">
-                <h6>Pq. Água Branca Barra Funda 2017</h6>
-                <img src="./img/feira2_carousel.jpg" alt="Pq. Água Branca Barra Funda 2017" class="responsive-img">
-            </div>
-            <div class="carousel-item center" href="#three!">
-                <h6>Av. Paulista 2018</h6>
-                <img src="./img/feira3_carousel.jpg" alt="Av. Paulista 2018" class="responsive-img">
-            </div>
-            <div class="carousel-item center" href="#four!">
-                <h6>Exposição Adamastor</h6>
-                <img src="./img/prefeito_carousel.jpg" alt="Exposição Adamastor" class="responsive-img">
-            </div>
-        </div>
-        
-    </div><br>
+        <!--Seção com informações do criador-->
+            <div class="row container section" id="ocriador">
+                <h5 class="title">O criador do projeto</h5>
 
-    <!--Seção com informações do criador-->
-        <div class="row container section" id="ocriador">
-            <h5 class="title">O criador do projeto</h5>
+                <div class="col s12 m6 l6">
+                    <p>
+                        O empreendedor Cezar iniciou sua carreira no ramo de produção gráfica, 
+                        onde desenvolveu trabalhos para algumas das maiores empresas do país. Com o passar do tempo, Cezar 
+                        mudou para o segmento de prestação de serviços, onde em determinado momento, teve contato com empresas 
+                        de limpeza pública e percebeu a grande quantidade de pneus que eram descartados diariamente nos córregos, 
+                        rios e terrenos de sua cidade, o que, consequentemente, acabava prejudicando o meio ambiente.
+                    </p>
+                </div>
+                <div class="col s12 m6 l6">
+                    <img src="./img/bosque.jpg" alt="Cezar no bosque maia" class="responsive-img">
+                </div>
+            </div>
 
-            <div class="col s12 m6 l6">
-                <p>
-                    O empreendedor Cezar iniciou sua carreira no ramo de produção gráfica, 
-                    onde desenvolveu trabalhos para algumas das maiores empresas do país. Com o passar do tempo, Cezar 
-                    mudou para o segmento de prestação de serviços, onde em determinado momento, teve contato com empresas 
-                    de limpeza pública e percebeu a grande quantidade de pneus que eram descartados diariamente nos córregos, 
-                    rios e terrenos de sua cidade, o que, consequentemente, acabava prejudicando o meio ambiente.
-                </p>
+            <div class="row container section">
+                <div class="col s12 m6 l6">
+                    <img src="./img/confeccao.JPG" alt="confeccao do puff" class="responsive-img">
+                </div>
+                <div class="col s12 m6 l6">
+                    <p>
+                        Achando que seria apenas mais um hobbie, acabou encontrando muito mais que isso,
+                        uma forma de conscientizar as pessoas sobre um propósito sustentável e contar a sua história
+                        por meio de cada móvel produzido. Hoje, o criador dessa ideia incrível, já visitou e marcou sua
+                        presença em inúmeras feiras nacionais e internacionais, além de ter participado de entrevistas
+                        com pessoas e empresas muito conhecidas, como a própria designer do programa Me Poupe! e ter
+                        participado de uma entrevista com os sócios da empresa de produção de máquinas de costura Singer.
+                    </p>
+                </div>
             </div>
-            <div class="col s12 m6 l6">
-                <img src="./img/bosque.jpg" alt="Cezar no bosque maia" class="responsive-img">
-            </div>
-        </div>
 
-        <div class="row container section">
-            <div class="col s12 m6 l6">
-                <img src="./img/confeccao.JPG" alt="confeccao do puff" class="responsive-img">
-            </div>
-            <div class="col s12 m6 l6">
-                <p>
-                    Achando que seria apenas mais um hobbie, acabou encontrando muito mais que isso,
-                    uma forma de conscientizar as pessoas sobre um propósito sustentável e contar a sua história
-                    por meio de cada móvel produzido. Hoje, o criador dessa ideia incrível, já visitou e marcou sua
-                    presença em inúmeras feiras nacionais e internacionais, além de ter participado de entrevistas
-                    com pessoas e empresas muito conhecidas, como a própria designer do programa Me Poupe! e ter
-                    participado de uma entrevista com os sócios da empresa de produção de máquinas de costura Singer.
-                </p>
+        <!--Seção dos produtos-->
+        <div class="row container section" id="artepneus">
+            <div class="col offset-s1 s10 offset-s1">
+                <h5 class="title">Fazendo arte em pneus</h5>
+                <p class="center-align">Com arte, criatividade e bom gosto, transformamos pneus em:</p>
             </div>
         </div>
-
-    <!--Seção dos produtos-->
-    <div class="row container section" id="artepneus">
-        <div class="col offset-s1 s10 offset-s1">
-            <h5 class="title">Fazendo arte em pneus</h5>
-            <p class="center-align">Com arte, criatividade e bom gosto, transformamos pneus em:</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col s12 m4 l4">
-            <div class="card">
-                <div class="card-image">
-                    <div class="carousel carousel-slider center">
-                        <div class="carousel-item">
-                            <img src="./img/puff.JPG" alt="puff" class="responsive-img">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./img/puff2.JPG" alt=puff" class="responsive-img">
+        <div class="row">
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <div class="carousel carousel-slider center">
+                            <div class="carousel-item">
+                                <img src="./img/puff.JPG" alt="puff" class="responsive-img">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/puff2.JPG" alt=puff" class="responsive-img">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="card-content">
-                    <span class="card-title">Puffs</span>
-                </div>
-                <div class="card-action">
-                    <a href="./arte/arte.html" class="center-align btn orange darken-2">Quero comprar</a>
-                </div>
-            </div>
-        </div>
-        <div class="col s12 m4 l4">
-            <div class="card">
-                <div class="card-image">
-                    <div class="carousel carousel-slider center">
-                        <div class="carousel-item">
-                            <img src="./img/mesa_centro.JPG" alt="mesa de centro" class="responsive-img">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./img/mesa_centro2.JPG" alt="mesa de centro" class="responsive-img">
-                        </div>
+                    <div class="card-content">
+                        <span class="card-title">Puffs</span>
+                    </div>
+                    <div class="card-action">
+                        <a href="./arte/arte.html" class="center-align btn orange darken-2">Quero comprar</a>
                     </div>
                 </div>
-                <div class="card-content">
-                    <span class="card-title">Mesas de Centro</span>
-                </div>
-                <div class="card-action">
-                    <a href="./arte/arte.html" class="center-align btn orange darken-2">Quero comprar</a>
-                </div>
             </div>
-        </div>
-        <div class="col s12 m4 l4">
-            <div class="card">
-                <div class="card-image">
-                    <div class="carousel carousel-slider center">
-                        <div class="carousel-item">
-                            <img src="./img/banqueta2.JPG" alt="banqueta" class="responsive-img">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./img/banqueta.JPG" alt="banqueta" class="responsive-img">
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <div class="carousel carousel-slider center">
+                            <div class="carousel-item">
+                                <img src="./img/mesa_centro.JPG" alt="mesa de centro" class="responsive-img">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/mesa_centro2.JPG" alt="mesa de centro" class="responsive-img">
+                            </div>
                         </div>
                     </div>
+                    <div class="card-content">
+                        <span class="card-title">Mesas de Centro</span>
+                    </div>
+                    <div class="card-action">
+                        <a href="./arte/arte.html" class="center-align btn orange darken-2">Quero comprar</a>
+                    </div>
                 </div>
-                <div class="card-content">
-                    <span class="card-title">Banquetas</span>
-                </div>
-                <div class="card-action">
-                    <a href="./arte/arte.html" class="center-align btn orange darken-2">Quero comprar</a>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <div class="carousel carousel-slider center">
+                            <div class="carousel-item">
+                                <img src="./img/banqueta2.JPG" alt="banqueta" class="responsive-img">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/banqueta.JPG" alt="banqueta" class="responsive-img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Banquetas</span>
+                    </div>
+                    <div class="card-action">
+                        <a href="./arte/arte.html" class="center-align btn orange darken-2">Quero comprar</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!--Seção dos depoimentos-->
-    <div class="row center">
-        <h5 class="title">Depoimentos</h5>
-    </div>
+        <!--Seção dos depoimentos-->
+        <div class="row center">
+            <h5 class="title">Depoimentos</h5>
+        </div>
 
-    <!--Seção das empresas parceiras-->
-    <div class="row center">
-        <h5 class="title">Empresas parceiras</h5>
-    </div>
-   
+        <!--Seção das empresas parceiras-->
+        <div class="row center">
+            <h5 class="title">Empresas parceiras</h5>
+        </div>
     
+    </main>
+
     <!--Rodapé da página-->
     <footer class="page-footer orange">
         <div class="container">
